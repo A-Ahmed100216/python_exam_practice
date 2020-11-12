@@ -19,11 +19,17 @@
 # tuple2=tuple(tuple_to_list)
 # # Print the amended tuple
 # print(tuple2)
-# (b) Create a dictionary and iterate to print the numbers up to 3.
-my_dict={"num1":1, "num2":2, "num3":3, "num4":4, "num5":5}
-# Use for loop to iterate through values
-for x in my_dict.values():
-    # If the value is less than 4, print it
-    if x<4:
-        print(x)
+# # (b) Create a dictionary and iterate to print the numbers up to 3.
+# my_dict={"num1":1, "num2":2, "num3":3, "num4":4, "num5":5}
+# # Use for loop to iterate through values
+# for x in my_dict.values():
+#     # If the value is less than 4, print it
+#     if x<4:
+#         print(x)
 
+# 3. Declare a shopping dictionary with three items and their prices
+shopping={"eggs":0.89, "milk":1.09, "bread":1.00}
+# Print the type of collection
+print(type(shopping))
+# Print the price of the item eggs
+print(shopping["eggs"])
